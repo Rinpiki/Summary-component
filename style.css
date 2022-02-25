@@ -1,0 +1,119 @@
+body,
+p,
+h1,
+ul,
+li,
+h3,
+h4 {
+  padding: 0px;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d6e1ff;
+}
+
+.card {
+  max-width: 370px;
+  max-height: 550px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.img {
+  max-width: 400px;
+  max-height: 200px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+h2 {
+  color: #2c3852;
+  font-weight: 900;
+}
+
+p {
+  color: #a9afbd;
+  font-size: 15px;
+}
+
+span {
+  font-size: 10px;
+}
+
+h3 {
+  font-size: 13px;
+  color: #323544;
+  font-weight: 900;
+  margin-bottom: 3px;
+}
+
+h4 {
+  font-size: 12px;
+  color: #a9afbd;
+}
+
+a {
+  color: #5b4dc8;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.preco {
+  background: #f8f9fe;
+  display: flex;
+  border-radius: 10px;
+  width: 320px;
+  height: 90px;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.preco2 {
+  display: flex;
+  align-items: center;
+  height: 45px;
+}
+
+.precotext {
+  text-align: left;
+  margin-left: 15px;
+}
+
+.btn {
+  background: #382ae1;
+  width: 319px;
+  height: 46px;
+  border-radius: 10px;
+  margin: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 10px 21px -1px rgba(0, 0, 0, 0.18);
+}
+
+h6 {
+  color: #8a8fa2;
+  font-size: 12px;
+}
