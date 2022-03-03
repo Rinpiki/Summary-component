@@ -35,8 +35,8 @@ body {
 }
 
 .img {
-  max-width: 400px;
-  max-height: 200px;
+  width: 100%;
+  height: 200px;
   border-radius: 10px 10px 0px 0px;
   margin-bottom: 10px;
 }
@@ -116,4 +116,7 @@ a {
 h6 {
   color: #8a8fa2;
   font-size: 12px;
+}
+
+@media (max-width: 400px) {
 }
